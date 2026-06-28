@@ -1,0 +1,21 @@
+// Full service catalogue. Add an entry -> a new card appears. No code change.
+export const services = [
+  { icon: 'rocket', title: 'Rapid MVP Development', desc: 'Validate fast with a real, deployable product — not a throwaway prototype.' },
+  { icon: 'layers', title: 'Enterprise Web Applications', desc: 'Complex, high-traffic platforms engineered to stay fast under load.' },
+  { icon: 'device', title: 'Mobile Apps', desc: 'Native-feel iOS & Android from one efficient, modern codebase.' },
+  { icon: 'palette', title: 'UI / UX Design', desc: 'Design systems and interfaces people actually enjoy using.' },
+  { icon: 'cloud', title: 'Cloud Engineering', desc: 'Resilient, cost-aware infrastructure built to scale on demand.' },
+  { icon: 'box', title: 'Azure Solutions', desc: 'End-to-end Azure architecture, deployment, and optimization.' },
+  { icon: 'box', title: 'AWS Solutions', desc: 'Production-grade AWS environments, secured and monitored.' },
+  { icon: 'plug', title: 'API Development', desc: 'Clean, documented, versioned APIs your partners can build on.' },
+  { icon: 'db', title: 'Database Architecture', desc: 'Data models that stay performant as you grow to millions of rows.' },
+  { icon: 'brain', title: 'AI Integrations', desc: 'Real, useful AI woven into your product — not a gimmick bolt-on.' },
+  { icon: 'gear', title: 'Enterprise Automation', desc: 'Replace manual workflows with reliable, auditable automation.' },
+  { icon: 'refresh', title: 'DevOps & CI/CD', desc: 'Ship safely and often with automated pipelines and rollbacks.' },
+  { icon: 'layers', title: 'System Modernization', desc: 'Bring legacy systems into a maintainable, modern architecture.' },
+  { icon: 'truck', title: 'Legacy Migration', desc: 'Move off aging stacks with zero-drama, planned migrations.' },
+  { icon: 'cloud', title: 'SaaS Development', desc: 'Multi-tenant, billing-ready SaaS engineered from day one.' },
+  { icon: 'spark', title: 'Startup Product Dev', desc: 'Founder-friendly builds that get you to traction, fast.' },
+  { icon: 'target', title: 'Product Strategy', desc: 'Roadmaps grounded in users, outcomes, and what ships next.' },
+  { icon: 'users', title: 'Technical Consulting', desc: 'Senior guidance on architecture, scale, security, and hiring.' },
+];

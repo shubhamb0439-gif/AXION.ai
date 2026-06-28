@@ -1,0 +1,41 @@
+/* ============================================================
+   QUANTUM FORGE — design tokens
+   Single source of truth for color, type, radius, motion.
+   ============================================================ */
+:root {
+  --navy-900: #04060f;
+  --navy-800: #060a18;
+  --navy-700: #0a0f22;
+  --surface: #0c1226;
+  --surface-2: #11183063;
+  --line: #1e2747;
+  --line-soft: #161e38;
+
+  --blue: #3b82f6;
+  --blue-bright: #60a5fa;
+  --indigo: #6366f1;
+  --violet: #8b5cf6;
+  --magenta: #d946ef;
+  --cyan: #38bdf8;
+
+  --white: #f6f8ff;
+  --text: #c5cce6;
+  --muted: #8089ad;
+  --faint: #5a6285;
+
+  --grad-brand: linear-gradient(110deg, #3b82f6 0%, #6366f1 38%, #8b5cf6 68%, #d946ef 100%);
+  --grad-brand-soft: linear-gradient(110deg, #60a5fa, #a78bfa, #e879f9);
+  --grad-cool: linear-gradient(135deg, #3b82f6, #6366f1);
+  --glow-blue: 0 0 40px -8px rgba(59, 130, 246, 0.55);
+  --glow-violet: 0 0 44px -6px rgba(139, 92, 246, 0.5);
+
+  --r-sm: 10px;
+  --r-md: 16px;
+  --r-lg: 22px;
+  --r-xl: 30px;
+  --maxw: 1200px;
+  --ease: cubic-bezier(0.22, 0.61, 0.36, 1);
+  --font-display: 'Space Grotesk', sans-serif;
+  --font-body: 'Inter', sans-serif;
+  --font-mono: 'JetBrains Mono', monospace;
+}
