@@ -11,7 +11,7 @@ export default function Footer() {
             <Logo />
             <p>From vision to production — in weeks, not months. AI-accelerated, enterprise-secured software engineering.</p>
             <div className="foot-tags">
-              <span>DESIGN</span><span>ENGINEER</span><span>DEPLOY</span>
+              <span>BUILD</span><span>AUTOMATE</span><span>ELEVATE</span>
             </div>
           </div>
           {footerColumns.map((col) => (
@@ -24,7 +24,7 @@ export default function Footer() {
           ))}
         </div>
         <div className="foot-bottom">
-          <span>© {new Date().getFullYear()} Quantum Forge. All rights reserved.</span>
+          <span>© {new Date().getFullYear()} AXION. All rights reserved.</span>
           <div className="socials">
             {socials.map((s) => (
               <a
