@@ -1,8 +1,8 @@
 {
-  "name": "quantum-forge",
+  "name": "axion",
   "private": true,
   "version": "1.0.0",
-  "description": "Quantum Forge — premium AI-accelerated software engineering landing page.",
+  "description": "AXION — premium AI-accelerated software engineering landing page.",
   "type": "module",
   "scripts": {
     "dev": "vite",
@@ -10,6 +10,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "framer-motion": "^12.42.2",
     "react": "^18.3.1",
     "react-dom": "^18.3.1"
   },

@@ -1,4 +1,4 @@
-// "Why Quantum Forge" — the two sides of the comparison.
+// "Why AXION" — the two sides of the comparison.
 export const traditional = {
   heading: 'The Traditional Way',
   headline: '4–12 Months',
@@ -12,8 +12,8 @@ export const traditional = {
   ],
 };
 
-export const quantum = {
-  heading: 'The Quantum Forge Way',
+export const axion = {
+  heading: 'The AXION Way',
   headline: 'Weeks, Not Months',
   points: [
     'AI-accelerated UI development',

@@ -1,6 +1,6 @@
-# Quantum Forge — Landing Site (React + Vite)
+# AXION — Landing Site (React + Vite)
 
-A premium marketing site for Quantum Forge, refactored from a single HTML file into a
+A premium marketing site for AXION, refactored from a single HTML file into a
 structured React application organised around SOLID principles.
 
 ## Run it
@@ -62,5 +62,5 @@ src/
 - **Portfolio** (`src/data/portfolio.js`) — placeholder case studies.
 - **Testimonials** (`src/data/testimonials.js`) — placeholder quotes; use real,
   attributed ones.
-- **Contact details** (`src/data/site.js`) — `hello@quantumforge.dev`,
+- **Contact details** (`src/data/site.js`) — `hello@axion.dev`,
   `+1 (000) 000-0000`, and the LinkedIn slug are placeholders.

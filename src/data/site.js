@@ -10,9 +10,9 @@ export const navLinks = [
 
 export const contactChannels = [
   { icon: 'cal', title: 'Discovery Call', detail: '30 min · find your fastest path to launch', href: '#' },
-  { icon: 'mail', title: 'Email', detail: 'hello@quantumforge.dev', href: 'mailto:hello@quantumforge.dev' },
+  { icon: 'mail', title: 'Email', detail: 'hello@axion.dev', href: 'mailto:hello@axion.dev' },
   { icon: 'phone', title: 'Phone', detail: '+1 (000) 000-0000', href: 'tel:+10000000000' },
-  { icon: 'linkedin', title: 'LinkedIn', detail: '/company/quantum-forge', href: '#' },
+  { icon: 'linkedin', title: 'LinkedIn', detail: '/company/axion', href: '#' },
 ];
 
 export const footerColumns = [
@@ -24,5 +24,5 @@ export const footerColumns = [
 export const socials = [
   { icon: 'linkedin', label: 'LinkedIn', href: '#' },
   { icon: 'xSocial', label: 'X', href: '#' },
-  { icon: 'mail', label: 'Email', href: 'mailto:hello@quantumforge.dev' },
+  { icon: 'mail', label: 'Email', href: 'mailto:hello@axion.dev' },
 ];

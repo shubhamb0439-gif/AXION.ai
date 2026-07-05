@@ -1,4 +1,4 @@
-// The six delivery phases shown on the horizontal forge rail.
+// The six delivery phases shown on the horizontal process rail.
 export const phases = [
   {
     no: 'PHASE 01', duration: '3 DAYS', title: 'Discovery & Planning',

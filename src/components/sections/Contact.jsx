@@ -17,7 +17,7 @@ export default function Contact() {
               timeline, and estimate. No obligation, no jargon.
             </p>
             <div className="hero-cta">
-              <Button href="mailto:hello@quantumforge.dev" variant="primary" arrow magnetic>
+              <Button href="mailto:hello@axion.dev" variant="primary" arrow magnetic>
                 Book Consultation
               </Button>
             </div>

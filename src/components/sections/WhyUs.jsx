@@ -1,7 +1,7 @@
 import { Section, SectionHeading } from '../primitives/Section.jsx';
 import Reveal from '../primitives/Reveal.jsx';
 import Icon from '../primitives/Icon.jsx';
-import { traditional, quantum } from '../../data/comparison.js';
+import { traditional, axion } from '../../data/comparison.js';
 
 function Column({ data, variant, iconName }) {
   return (
@@ -21,14 +21,14 @@ export default function WhyUs() {
   return (
     <Section id="why">
       <SectionHeading
-        eyebrow="Why Quantum Forge"
+        eyebrow="Why AXION"
         title={<>A different equation for<br />shipping software.</>}
         sub="Traditional delivery burns months and budget before you see anything real. We compress the timeline without compromising the engineering underneath."
       />
       <Reveal delay="1" className="compare">
         <Column data={traditional} variant="old" iconName="x" />
         <div className="cmp-vs"><span>VS</span></div>
-        <Column data={quantum} variant="new" iconName="check" />
+        <Column data={axion} variant="new" iconName="check" />
       </Reveal>
     </Section>
   );

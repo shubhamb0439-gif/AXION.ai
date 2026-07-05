@@ -21,7 +21,7 @@ export default function Hero() {
               <span className="line"><span className="grad-text">Not Months.</span></span>
             </Reveal>
             <Reveal as="p" delay="2" className="lead">
-              Quantum Forge turns ideas into secure, scalable, production-ready software — pairing
+              AXION turns ideas into secure, scalable, production-ready software — pairing
               AI-assisted development with senior enterprise engineering. From vision to production, fast.
             </Reveal>
             <Reveal delay="3" className="hero-cta">

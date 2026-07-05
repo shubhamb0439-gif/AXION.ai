@@ -30,7 +30,7 @@ export default function Process() {
   return (
     <Section id="process">
       <SectionHeading
-        eyebrow="The Forge Process"
+        eyebrow="The AXION Process"
         title={<>Six phases. One month.<br />Production at the end.</>}
         sub="A transparent path from first conversation to live product — you see working software every single week."
       />
@@ -44,7 +44,7 @@ export default function Process() {
           ))}
         </div>
       </div>
-      <p className="process-hint">↔ DRAG OR SCROLL TO MOVE THROUGH THE FORGE</p>
+      <p className="process-hint">↔ DRAG OR SCROLL TO MOVE THROUGH THE PROCESS</p>
     </Section>
   );
 }
