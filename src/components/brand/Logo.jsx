@@ -32,9 +32,9 @@ export function LogoMark({ className = 'mark' }) {
   );
 }
 
-/** Full lockup: mark + AXION wordmark + tagline. */
+/** Full lockup: mark (as the "A") + XION wordmark + tagline. */
 export default function Logo({ href = '#top', onClick }) {
-  const word = 'AXION'.split('');
+  const word = 'XION'.split('');
 
   return (
     <motion.a
@@ -46,30 +46,33 @@ export default function Logo({ href = '#top', onClick }) {
       whileHover="hover"
       animate="rest"
     >
-      <LogoMark />
-      <span className="word">
-        <motion.span className="q" style={{ display: 'inline-flex' }}>
-          {word.map((ch, i) => (
-            <motion.span
-              key={i}
-              custom={i}
-              variants={letter}
-              initial="hidden"
-              animate="show"
-              style={{ display: 'inline-block' }}
-            >
-              {ch}
-            </motion.span>
-          ))}
-        </motion.span>
-        <motion.small
-          initial={{ opacity: 0, letterSpacing: '0.1em' }}
-          animate={{ opacity: 1, letterSpacing: '0.32em' }}
-          transition={{ delay: 0.35, duration: 0.6, ease: [0.22, 0.61, 0.36, 1] }}
-        >
-          BUILD · AUTOMATE · ELEVATE
-        </motion.small>
+      <span className="brand-row">
+        <LogoMark />
+        <span className="word">
+          <motion.span className="q" style={{ display: 'inline-flex' }}>
+            {word.map((ch, i) => (
+              <motion.span
+                key={i}
+                custom={i}
+                variants={letter}
+                initial="hidden"
+                animate="show"
+                style={{ display: 'inline-block' }}
+              >
+                {ch}
+              </motion.span>
+            ))}
+          </motion.span>
+        </span>
       </span>
+      <motion.small
+        className="brand-tagline"
+        initial={{ opacity: 0, letterSpacing: '0.1em' }}
+        animate={{ opacity: 1, letterSpacing: '0.32em' }}
+        transition={{ delay: 0.35, duration: 0.6, ease: [0.22, 0.61, 0.36, 1] }}
+      >
+        BUILD · AUTOMATE · ELEVATE
+      </motion.small>
     </motion.a>
   );
 }
