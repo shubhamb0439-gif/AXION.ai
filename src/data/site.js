@@ -4,6 +4,7 @@ export const navLinks = [
     { href: '#process', label: 'Process' },
     { href: '#services', label: 'Services' },
     { href: '#work', label: 'Work' },
+    { href: '#portfolio', label: 'Portfolio' },
     { href: '#pricing', label: 'Pricing' },
     { href: '#faq', label: 'FAQ' },
 ];
@@ -32,6 +33,7 @@ export const footerColumns = [
             ['#services', 'Services'],
             ['#industries', 'Industries'],
             ['#work', 'Case Studies'],
+            ['#portfolio', 'Portfolio'],
             ['#contact', 'About'],
         ],
     },

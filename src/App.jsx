@@ -12,6 +12,7 @@ import TechStack from './components/sections/TechStack.jsx';
 import Stats from './components/sections/Stats.jsx';
 import Pricing from './components/sections/Pricing.jsx';
 import Portfolio from './components/sections/Portfolio.jsx';
+import Showcase from './components/sections/Showcase.jsx';
 import Testimonials from './components/sections/Testimonials.jsx';
 import Faq from './components/sections/Faq.jsx';
 import Contact from './components/sections/Contact.jsx';
@@ -37,6 +38,7 @@ export default function App() {
         <Stats />
         <Pricing />
         <Portfolio />
+        <Showcase />
         <Testimonials />
         <Faq />
         <Contact />
