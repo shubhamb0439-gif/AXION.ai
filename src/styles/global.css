@@ -255,7 +255,7 @@ h1, h2, h3, h4 { font-family: var(--font-display); font-weight: 600; color: var(
 .port .ptech span { font-size: 11px; color: var(--muted); background: rgba(255, 255, 255, 0.04); border: 1px solid var(--line-soft); padding: 4px 9px; border-radius: 7px; }
 
 /* ============================================================ live portfolio */
-.live-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 20px; }
+.live-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px; }
 .live { display: flex; flex-direction: column; align-items: flex-start; gap: 12px; padding: 26px; }
 .live h3 { font-size: 22px; margin-top: 6px; }
 .live-url { font-family: var(--font-mono); font-size: 12px; color: var(--faint); word-break: break-all; }

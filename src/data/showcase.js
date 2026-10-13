@@ -4,4 +4,5 @@ export const liveSites = [
     { name: 'Sai Office', tag: 'Retail', url: 'https://officemart.in/' },
     { name: 'Drug Assist', tag: 'Healthcare', url: 'https://drugassist.us/' },
     { name: 'OG Healthcare', tag: 'Healthcare', url: 'https://www.oghealthcare.com/' },
+    { name: 'Bobby Group', tag: 'Corporate', url: 'https://www.bobbygroup.in/' },
 ];
